@@ -16,7 +16,7 @@ public class StreamSources {
 
     public static Stream<Integer> intNumbersStream() {
         return Stream.iterate(0, i -> i + 2)
-                .limit(10);
+                .limit(2);
     }
 
     public static Stream<User> userStream() {
