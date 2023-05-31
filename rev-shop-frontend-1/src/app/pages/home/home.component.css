@@ -1,0 +1,200 @@
+/* Basic Styling */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+
+/* Navigation Bar Styling */
+
+/* Hero Image Styling */
+
+
+.btn-primary {
+  position: absolute; 
+  top: 20%;
+  left: 80%;
+}
+.btn-secondary{
+  position: absolute; 
+  top: 20%;
+  left: 90%;
+}
+
+.hero-image {
+  background-image: url("https://i.ibb.co/kgZWKxg/christian-t-Lmr-ASYu-Jx8-unsplash.jpg");
+  background-size: cover;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-text {
+  text-align: center;
+  color: #fff;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.button {
+  background-color: #fff;
+  color: #333;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Main Content Styling */
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.product-grid {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
+.product {
+  width: calc(100% / 3 - 10px);
+  background-color: #f4f4f4;
+  padding: 5px;
+  border-radius: 5px;
+  margin-left: 20px
+}
+
+.product img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.product h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.product p {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+/* Footer Styling */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Collapsible Menu Styling */
+input[type="checkbox"] {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  label {
+    display: block;
+  }
+
+  .hero-image {
+    background-image: url("https://i.ibb.co/kgZWKxg/christian-t-Lmr-ASYu-Jx8-unsplash.jpg");
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero-text {
+    text-align: center;
+    color: #fff;
+  }
+
+  .hero-text h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+
+  .hero-text p {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+
+  .button {
+    background-color: #fff;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+  /* Main Content Styling */
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+  }
+
+  .product-grid {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-left: 20px;
+  }
+
+  .product {
+    width: calc(100% / 3 - 10px);
+    background-color: #f4f4f4;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 20px
+  }
+
+  .product img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .product h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .product p {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+
+  /* Footer Styling */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+
+
+
+
+
+
+}
