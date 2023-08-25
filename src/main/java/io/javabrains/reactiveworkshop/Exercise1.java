@@ -48,6 +48,12 @@ public class Exercise1 {
                 .filter(user -> numbers.contains(user.getId()))
                 .forEach(user -> System.out.println(user.getFirstName()));
 
+        // OR
+        StreamSources.intNumbersStream()
+                .flatMap(id -> StreamSources.userStream()
+                        .filter(user -> user.getId() == id))
+                .map(user -> user.getFirstName())
+                .forEach(System.out::println);
     }
 
 }
