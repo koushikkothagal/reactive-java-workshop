@@ -27,3 +27,9 @@
 hs_err_pid*
 replay_pid*
 .idea/inspectionProfiles/Project_Default.xml
+
+# ignore asdf tool-versions
+.tool-versions
+
+# ignore intelij files
+.idea/*
